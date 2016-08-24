@@ -139,11 +139,11 @@ tr_TR:
         sa_east_1: "South America (Sao Paulo)"
         cn_north_1: "China (Beijing)"
     edit: 'bu konunun başlığını ve kategorisini düzenleyin'
-    not_implemented: "Bu özellik henüz geliştirilmedi, üzgünüz!"
+    not_implemented: "Bu özellik henüz geliştirilmedi, üzgünüm canım."
     no_value: "Hayır"
     yes_value: "Evet"
-    generic_error: "Üzgünüz, bir hata oluştu."
-    generic_error_with_reason: "Bir hata oluştu: %{error}"
+    generic_error: "Siteyi bozdun, aferin."
+    generic_error_with_reason: "Hata şöyle: %{error}"
     sign_up: "Üye Ol"
     log_in: "Giriş Yap"
     age: "Yaş"
@@ -155,7 +155,7 @@ tr_TR:
     links: "Bağlantılar"
     links_lowercase:
       other: "bağlantılar"
-    faq: "Sıkça Sorulan Sorular"
+    faq: "Babun Kılavuzu"
     guidelines: "Yönergeler"
     privacy_policy: "Gizlilik Sözleşmesi"
     privacy: "Gizlilik"
@@ -186,8 +186,8 @@ tr_TR:
       simple_title: "Hakkında"
       title: "%{title} Hakkında"
       stats: "Site İstatistikleri"
-      our_admins: "Yöneticilerimiz"
-      our_moderators: "Moderatörlerimiz"
+      our_admins: "Yöneticiler"
+      our_moderators: "Moderatörler"
       stat:
         all_time: "Tüm Zamanlar"
         last_7_days: "Son 7 gün"
@@ -206,7 +206,7 @@ tr_TR:
         bookmark: "Bu konudaki ilk gönderiyi işaretlemek için tıklayın"
         unbookmark: "Bu konudaki bütün işaretleri kaldırmak için tıklayın"
     bookmarks:
-      not_logged_in: "üzgünüz, gönderileri işaretleyebilmeniz için oturum açmanız gerekiyor."
+      not_logged_in: "üzgünüm, gönderileri işaretleyebilmeniz için oturum açmanız gerekiyor. Mantıklı bence."
       created: "bu gönderiyi işaretlediniz"
       not_bookmarked: "bu gönderiyi okudunuz; yer imlerinize eklemek için tıklayın"
       last_read: "bu okuduğunuz son gönderi; yer imlerinize eklemek için tıklayın"
@@ -232,7 +232,7 @@ tr_TR:
     disable: "Devredışı Bırak"
     undo: "Geri Al"
     revert: "Eski Haline Getir"
-    failed: "Başarısız oldu"
+    failed: "Bozuldu"
     switch_to_anon: "Ziyaretçi moduna geç"
     switch_from_anon: "Ziyaretçi modundan çıkış"
     banner:
@@ -827,7 +827,7 @@ tr_TR:
       authenticating: "Kimliğiniz doğrulanıyor..."
       awaiting_confirmation: "Hesabınız etkinleştirilmemiş. Yeni bir etkinleştirme e-postası almak için parolamı unuttum bağlantısını kullanabilirsiniz. "
       awaiting_approval: "Hesabınız henüz bir görevli tarafından onaylanmadı. Onaylandığında e-posta ile haberdar edileceksiniz."
-      requires_invite: "Üzgünüz, bu foruma sadece davetliler erişebilir."
+      requires_invite: "Üzgünüz, Babunlar'a sadece davetliler erişebilir."
       not_activated: "Henüz oturum açamazsınız. Hesabınızı etkinleştirmek için lütfen daha önceden <b>{{sentTo}}</b> adresine yollanan etkinleştirme e-postasındaki açıklamaları okuyun."
       not_allowed_from_ip_address: "Bu IP adresiyle oturum açamazsınız."
       admin_not_allowed_from_ip_address: "Bu IP adresinden yönetici olarak oturum açamazsınız."
@@ -1922,9 +1922,9 @@ tr_TR:
           search: "Daha fazla arama sonucu bulunmuyor."
     invite:
       custom_message: "Davetini daha özel hale getirmek için şunu yaz"
-      custom_message_link: "kişiselleştirilmiş mesak"
+      custom_message_link: "kişiselleştirilmiş mesaj"
       custom_message_placeholder: "Kişiselleştirilmiş mesajınızı düzenleyin"
-      custom_message_template_forum: "Hey, bu foruma üye olsan iyi olur!"
+      custom_message_template_forum: "Hey, Babunlar'a üye olsan iyi olur!"
       custom_message_template_topic: "Hey, bu konu senin için eğleceli olabilir!"
   admin_js:
     type_to_filter: "filtre girin..."
@@ -2622,7 +2622,7 @@ tr_TR:
           confirm: 'Onay'
           dropdown: "Açılır liste"
       site_text:
-        description: "Forumunuzdaki herhangi bir metni özelleştirebilirsiniz. Lütfen aşağıda arayarak başlayın: "
+        description: "Babunlar'da herhangi bir metni özelleştirebilirsiniz. Lütfen aşağıda arayarak başlayın: "
         search: "Düzenlemek istediğiniz metni arayın"
         title: 'Yazı İçeriği'
         edit: 'düzenle'
