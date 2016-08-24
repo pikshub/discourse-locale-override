@@ -148,7 +148,7 @@ tr_TR:
     log_in: "Giriş Yap"
     age: "Yaş"
     joined: "Katıldı"
-    admin_title: "Yönetici"
+    admin_title: "Yönetim"
     flags_title: "Bayraklar"
     show_more: "devamını göster"
     show_help: "seçenekler"
