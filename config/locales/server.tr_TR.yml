@@ -180,13 +180,25 @@ tr_TR:
     until_posts:
       other: "%{count} gönderi"
     new-topic: |
-      %{site_name}'a hoş geldin.
-      
-      Lütfen, [topluluk yönergelerimize bakın](/guidelines). Bu panel sadece ilk %{education_posts_text} için görünür.
+      %{site_name} forumuna hoşgeldiniz &mdash; **yeni bir sohbet başlattığınız için teşekkür ederiz! **
+
+      - Yüksek sesle okuduğunuzda başlık ilgi çekici geliyor mu? İyi bir özet mi?
+
+      - Bununla kim ilgilenirdi? Neden önemli? Ne gibi cevaplar almayı diliyorsunuz?
+
+      - Diğerlerinin de kolayca *bulabilmesi * için konunuzun içerisine sıkça kullanılan kelimeler dahil edin. Konunuzun benzer konularla gruplanması için bir kategori seçin.
+
+      Daha fazlası için, [topluluk yönergelerimize bakın](/guidelines). Bu panel sadece ilk %{education_posts_text} için görünür.
     new-reply: |
-    %{site_name}'a hoş geldin.
-    
-    Lütfen, [topluluk yönergelerimize bakın](/guidelines). Bu panel sadece ilk %{education_posts_text} için görünür.
+      %{site_name} forumuna hoşgeldiniz &mdash; **katılımınız için teşekkür ederiz!**
+
+      - Cevabınız sohbeti bir şekilde geliştiriyor mu?
+
+      - Topluluğun diğer üyelerine karşı nazik olun.
+
+      - Yapıcı eleştirici her zaman kabul edilir, ama *fikirleri* eleştirin, insanları değil.
+
+      Daha fazlası için, [topluluk yönergelerine bakın](/guidelines). Bu yazı sadece ilk %{education_posts_text} için görünür.
     avatar: |
       ### Hesabının bir resmi olsun istemez misin?
 
@@ -406,8 +418,8 @@ tr_TR:
     already_done: "Üzgünüz, hesap doğrulama linki artık geçerli değil. Hesabınız zaten etkin olabilir mi?"
     please_continue: "Hesabınız doğrulandı; şimdi ana sayfaya yönlendirileceksiniz."
     continue_button: "%{site_name} adresine devam edin"
-    welcome_to: "%{site_name}'a hoş geldin!'"
-    approval_required: "Babunlar'a erişebilmeniz için yeni hesabınızın bir moderatör tarafından manuel olarak onaylanması gerekir. Hesabınız onaylandığında e-posta ile bilgilendirileceksiniz!"
+    welcome_to: "%{site_name} sitesine hoşgeldiniz!"
+    approval_required: "Bu foruma erişebilmeniz için yeni hesabınızın bir moderatör tarafından manuel olarak onaylanması gerekir. Hesabınız onaylandığında e-posta ile bilgilendirileceksiniz!"
     missing_session: "Hesabınızı tespit edemiyoruz eğer önceden hesap oluşturduysanız, lütfen çerezlerin etkin olduğundan emin olun."
   post_action_types:
     off_topic:
@@ -1257,7 +1269,7 @@ tr_TR:
       subject_template:
         other: "%{count} kullanıcı onay bekliyor"
       text_body_template: |
-        Babunlar'a giriş yapabilmek için onayınızı (ya da reddinizi) bekleyen yeni kullanıcı kayıtları var.
+        Bu foruma giriş yapabilmek için onayınızı (ya da reddinizi) bekleyen yeni kullanıcı kayıtları var.
 
         [Lütfen admin bölümünde değerlendirmenizi yapın](%{base_url}/admin/users/list/pending).
     download_remote_images_disabled:
