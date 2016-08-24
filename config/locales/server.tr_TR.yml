@@ -102,7 +102,7 @@ tr_TR:
   reading_time: "Okuma Zamanı"
   likes: "Beğeniler"
   too_many_replies:
-    other: "Üzgünüz, yeni kullanıcılar geçici olarak aynı konu içinde sadece %{count} cevap ile sınırlılar. "
+    other: "Üzgünüm, yeni kullanıcılar geçici olarak aynı konu içinde sadece %{count} cevap ile sınırlılar. "
   embed:
     start_discussion: "Tartışma Başlat"
     continue: "Tartışmaya Devam Et"
@@ -180,17 +180,11 @@ tr_TR:
     until_posts:
       other: "%{count} gönderi"
     new-topic: |
-      %{site_name} forumuna hoşgeldiniz &mdash; **yeni bir sohbet başlattığınız için teşekkür ederiz! **
+      %{site_name} hoşgeldin.
 
-      - Yüksek sesle okuduğunuzda başlık ilgi çekici geliyor mu? İyi bir özet mi?
-
-      - Bununla kim ilgilenirdi? Neden önemli? Ne gibi cevaplar almayı diliyorsunuz?
-
-      - Diğerlerinin de kolayca *bulabilmesi * için konunuzun içerisine sıkça kullanılan kelimeler dahil edin. Konunuzun benzer konularla gruplanması için bir kategori seçin.
-
-      Daha fazlası için, [topluluk yönergelerimize bakın](/guidelines). Bu panel sadece ilk %{education_posts_text} için görünür.
+      Lütfen [topluluk yönergelerimize bakın](/guidelines). Bu panel sadece ilk %{education_posts_text} için görünür.
     new-reply: |
-      %{site_name} forumuna hoşgeldiniz &mdash; **katılımınız için teşekkür ederiz!**
+        %{site_name} hoşgeldin.
 
       - Cevabınız sohbeti bir şekilde geliştiriyor mu?
 
@@ -198,7 +192,7 @@ tr_TR:
 
       - Yapıcı eleştirici her zaman kabul edilir, ama *fikirleri* eleştirin, insanları değil.
 
-      Daha fazlası için, [topluluk yönergelerine bakın](/guidelines). Bu yazı sadece ilk %{education_posts_text} için görünür.
+      Lütfen [topluluk yönergelerimize bakın](/guidelines). Bu yazı sadece ilk %{education_posts_text} için görünür.
     avatar: |
       ### Hesabının bir resmi olsun istemez misin?
 
@@ -255,9 +249,9 @@ tr_TR:
         user:
           attributes:
             password:
-              common: "En çok kullanılan 10000 paroladan biri. Lütfen daha güvenli bir parola seçin."
-              same_as_username: "kullanıcı adınızla aynı. Lütfen daha güvenli bir şifre seçiniz."
-              same_as_email: "e-posta adresinizle aynı. Lütfen daha güvenli bir şifre seçiniz."
+              common: "En çok kullanılan 10000 paroladan biri. Kendine gel."
+              same_as_username: "kullanıcı adınızla aynı. Lütfen daha güvenli bir şifre seçin."
+              same_as_email: "e-posta adresinizle aynı. Lütfen daha güvenli bir şifre seçin."
             ip_address:
               signup_not_allowed: "Bu hesaptan yeni üyelik oluşturulmasına izin verilmiyor."
         color_scheme_color:
@@ -295,11 +289,8 @@ tr_TR:
 
       Bu topluluğun önemli bir parçası olduğunuz için teşekkür ederiz!
 
-      (Güven seviyeleriyle ilgili daha fazla bilgi için, [bu konuya bakın][trust]. Lütfen, sadece sürekli olarak kriterlere uyan üyelerin standart seviyede kalacağını unutmayın.)
-
-      [trust]: https://meta.discourse.org/t/what-do-user-trust-levels-do/4924
   category:
-    topic_prefix: "%{category} kategorisi hakkında "
+    topic_prefix: "%{category}"
     replace_paragraph: "(Bu paragrafın yerine yeni kategorinizin kısa bir açıklamasını girin. Buraya yazılanlar kategori seçim alanında görüneceği için, açıklamanızı 200 karakterin altında tutmaya çalışın.**Siz bu metni düzenleyene veya herhangi bir konu oluşturana kadar bu kategori, kategori sayfasında gözükmeyecek.**)"
     post_template: "%{replace_paragraph}\n\nAşağıdaki satırları daha uzun açıklama, kategori yönergeleri ya da kurallar oluşturmak için kullanın:\n\n-Bu kategorinin amacı ne? İnsanlar konu oluştururken neden bu kategoriyi kullanmalılar?\n\n-Bu kategorinin mevcut diğer kategorilerden farkı ne?\n\n- Bu kategorideki konular neleri içermeli?\n\n- Bu kategoriye gerçekten ihtiyacımız var mı? Bu kategoriyi bir başka kategori ya da alt kategori ile birleştirmeli miyiz?\n"
     errors:
@@ -319,7 +310,7 @@ tr_TR:
     basic:
       title: "acemi kullanıcı"
     member:
-      title: "üye"
+      title: "yazar"
     regular:
       title: "müdavim"
     leader:
@@ -416,10 +407,10 @@ tr_TR:
   activation:
     action: "Hesabınızı etkinleştirmek için buraya tıklayın"
     already_done: "Üzgünüz, hesap doğrulama linki artık geçerli değil. Hesabınız zaten etkin olabilir mi?"
-    please_continue: "Hesabınız doğrulandı; şimdi ana sayfaya yönlendirileceksiniz."
+    please_continue: "Hesabınız doğrulandı; şimdi ana sayfaya fırlatıyoruz sizi. Sıkı tutunun."
     continue_button: "%{site_name} adresine devam edin"
     welcome_to: "%{site_name} sitesine hoşgeldiniz!"
-    approval_required: "Bu foruma erişebilmeniz için yeni hesabınızın bir moderatör tarafından manuel olarak onaylanması gerekir. Hesabınız onaylandığında e-posta ile bilgilendirileceksiniz!"
+    approval_required: "Babunlar'a erişebilmeniz için yeni hesabınızın bir moderatör tarafından manuel olarak onaylanması gerekir. Hesabınız onaylandığında e-posta ile bilgilendirileceksiniz!"
     missing_session: "Hesabınızı tespit edemiyoruz eğer önceden hesap oluşturduysanız, lütfen çerezlerin etkin olduğundan emin olun."
   post_action_types:
     off_topic:
@@ -1071,7 +1062,7 @@ tr_TR:
     visible_disabled: "Bu konu listeden çıkartıldı. Artık, konu listesinde yer almayacak. Bu konuya sadece kendi bağlantısından ulaşılabilir. "
   login:
     not_approved: "Hesabını henüz onaylanmadı. Giriş yapmak için hazır olduğunuzda e-posta ile bilgilendirileceksiniz."
-    incorrect_username_email_or_password: "Yanlış kullanıcı adı, e-posta ya da parola"
+    incorrect_username_email_or_password: "Yanlış şeyler var burada."
     wait_approval: "Üye olduğunuz için teşekkürler. Hesabınız onaylandığında sizi haberdar edeceğiz."
     active: "Hesabınız etkinleştirildi ve kullanıma hazır."
     activate_email: "<p>Az kaldı! <b>%{email}</b> adresine bir etkinleştirme e-postası gönderdik. Hesabınızı etkinleştirmek için lütfen e-postadaki yönlendirmeleri takip edin.</p><p>Eğer e-postayı almadıysanız, gereksiz klasörünüzü kontrol edin ya da başka bir etkinleştirme e-postası daha göndermek için tekrar giriş yapmayı deneyin.</p>"
@@ -1526,35 +1517,35 @@ tr_TR:
     title: "Gizlilik İlkeleri"
   badges:
     editor:
-      name: Editör
+      name: Keşif
       description: İlk mesajını düzenledin.
       long_description: |
         Bu rozet mesajlarınızdan birini düzenlediğinizde verilecektir. Mesajlarınızı düzenlemek her zaman için iyidir — mesajlarınızı geliştirebilir, küçük hataları düzeltebilir, ya da unuttuğunuz detayları ekleyebilirsiniz. Daha iyi mesaj oluşturabilmek için düzenleyin.
     basic_user:
       name: Acemi
-      description: Bütün esas forum uygulamalarını kullanabilmeye <a href="https://meta.discourse.org/t/what-do-user-trust-levels-do/4924/4">hak kazanılmıştır</a>
+      description: Bütün esas Babun uygulamalarını kullanabilmeye hak kazanılmıştır
       long_description: |
-        Bu rozet ilk rütbene ulaştığın için verildi. Forumda neler olduğunu takip ettiğiniz için ve konuları okuduğunuz için teşekkürler. Artık yeni özelliklere sahipsin; kişisel mesajlaşma, işaretleme, düzenleme, ve çoklu resim ve bağlantı paylaşablme gibi.
+        Bu rozet ilk rütbene ulaştığın için verildi. Babunlar'da neler olduğunu takip ettiğiniz için ve konuları okuduğunuz için teşekkürler. Artık yeni özelliklere sahipsin; kişisel mesajlaşma, işaretleme, düzenleme, ve çoklu resim ve bağlantı paylaşabilme gibi.
     member:
-      name: Sadık Üye
-      description: Davetler, grup mesajlaşmaları, ve daha fazla beğeni <a href="https://meta.discourse.org/t/what-do-user-trust-levels-do/4924/5">hakkı kazanılmıştır</a>
+      name: Yazar
+      description: Davetler, grup mesajlaşmaları, ve daha fazla beğeni hakkı kazanılmıştır.
       long_description: |
         Bu rozet ikinci rütbeye ulaştığın için verildi.Bir kaç haftadır aramızda zaman geçirdiğin için teşekkürler. Artık kullanıcı sayfandan ya da konu sayfandan davetler gönderebilirsin, kişisel grup mesajları oluşturabilirsin ve günlük daha fazla beğeni yapabilirsin.
     regular:
-      name: Daimi Üye
-      description: Yeniden kategorize etme, yeniden isimlendirme, takip edilen bağlantılar, ve daha fazla beğeni <a href="https://meta.discourse.org/t/what-do-user-trust-levels-do/4924/6">hakkı kazanılmıştır</a>
+      name: Daimi
+      description: Yeniden kategorize etme, yeniden isimlendirme, takip edilen bağlantılar, ve daha fazla beğeni hakkı kazanılmıştır.
       long_description: |
-        Bu rozet üçüncü seviye rütbeye ulaştığın için verildi. Bir kaç aydır düzenli katılımcımız olduğunuz için teşekkür ederiz. Forumumuzun en aktif okuyucularından ve güvenilir katılımcılarından birisiniz. Artık konuları tekrar kategorize edip, isimlendirebilirsiniz, bazı özel alanlara da girebilirsiniz ve günlük daha fazla beğeni yapabilirsiniz.
+        Bu rozet üçüncü seviye rütbeye ulaştığın için verildi. Bir kaç aydır düzenli katılımcımız olduğunuz için teşekkür ederiz. Babunlar'ın en aktif okuyucularından ve güvenilir katılımcılarından birisiniz. Artık konuları tekrar kategorize edip, isimlendirebilirsiniz, bazı özel alanlara da girebilirsiniz ve günlük daha fazla beğeni yapabilirsiniz.
     leader:
-      name: Lider
-      description: Genel düzenleme, sabitleme, kapama, arşivleme, ayırma ve birleştirme, daha fazla beğeni <a href="https://meta.discourse.org/t/what-do-user-trust-levels-do/4924/7">hakkı kazanılmıştır</a>
+      name: Azimli
+      description: Genel düzenleme, sabitleme, kapama, arşivleme, ayırma ve birleştirme, daha fazla beğeni hakkı kazanılmıştır.
       long_description: |
-        Bu rozet dördüncü rütbeye ulaştığın için verildi. Forumda yönetim tarafından seçilmiş bir lidersin ve yaptığınız paylaşımlarla diğer üyelere örnek oluyorsunuz. Bütün mesajları düzenleme hakkına sahipsiniz. Modaratörlerin yapabileceği, sabitleme,kapama, arşivleme, ayırma ve birleştirme gibi işlemleri yapabilrsiniz. Artık günlük çok daha fazla beğeni yapabilirsiniz.
+        Bu rozet dördüncü rütbeye ulaştığın için verildi. Babunlar'da yönetim tarafından seçilmiş bir lidersin ve yaptığınız paylaşımlarla diğer üyelere örnek oluyorsunuz. Bütün mesajları düzenleme hakkına sahipsiniz. Modaratörlerin yapabileceği, sabitleme,kapama, arşivleme, ayırma ve birleştirme gibi işlemleri yapabilrsiniz. Artık günlük çok daha fazla beğeni yapabilirsiniz.
     welcome:
-      name: Hoş geldiniz
+      name: Hoş geldin
       description: İlk Beğeni
       long_description: |
-        Bu rozet mesajına ilk beğenini aldığın için verildi. Tebrikler forumda diğer üyelerin ilgisini çeken, yararlı bir paylaşımda bulundun!
+        Bu rozet mesajına ilk beğenini aldığın için verildi. Tebrikler Babunlar'da diğer üyelerin ilgisini çeken, yararlı bir paylaşımda bulundun!
     autobiographer:
       name: Güncel Profil
       description: <a href="/my/preferences">profil</a> bilgilerini tamamlama
@@ -1564,57 +1555,57 @@ tr_TR:
       name: Tanışma Yıldönümü
       description: Bir sene içerisinde, en az bir kere mesaj yazmış aktif üye
       long_description: |
-        Bu rozet en az bir mesaj yazarak bir yıllık üyeliğinizi tamamladığınız için size verilmiştir. Forumda zaman geçirdiğiniz ve bizlere katkıda bulunduğunuz için teşekkür ederiz. Sizler olmasanız yapamazdık.
+        Bu rozet en az bir mesaj yazarak bir yıllık üyeliğinizi tamamladığınız için size verilmiştir. Babunlar'ın zaman geçirdiğiniz ve bizlere katkıda bulunduğunuz için teşekkür ederiz. Sizler olmasanız yapamazdık.
     nice_post:
-      name: Hoş Cevap
-      description: Cevaba 10 beğeni alındı
+      name: 10Beğeni
+      description: İleti 10 beğeni alındı
       long_description: |
-        Bu rozet cevabınıza aldığınız 10 beğeniden dolayı verilmiştir. Cevabınız forumda etki yarattı ve sohbetin ilerlemesine yardımcı oldu.
+        Bu rozet iletinize aldığınız 10 beğeniden dolayı verilmiştir. iletiniz Babunlar'da etki yarattı.
     good_post:
-      name: Çok İyi Cevap
-      description: Cevaba 25 beğeni alındı
+      name: 25Beğeni
+      description: İleti 25 beğeni alındı
       long_description: |
-        Bu rozet cevabınıza aldığınız 25 beğeniden dolayı verilmiştir. Cevabın çok iyiydi ve forumda herkes için faydalı oldu.
+        Bu rozet iletinize aldığınız 25 beğeniden dolayı verilmiştir. İletin çok iyiydi.
     great_post:
-      name: Muhteşem Cevap
-      description: Cevaba 50 beğeni alındı
+      name: 50Beğeni
+      description: İleti 50 beğeni alındı
       long_description: |
-        Bu rozet cevabınıza aldığınız 50 beğeniden dolayı verilmiştir.Süper! Cevabın muhteşem, büyüleyici ve ilham verici. Forum üyeleri cevabına bayıldı!
+        Bu rozet iletinize aldığınız 50 beğeniden dolayı verilmiştir.Süper! Cevabın muhteşem, büyüleyici ve ilham verici. Babunlar iletinize bayıldı!
     nice_topic:
       name: Hoş Konu
       description: Konu 10 beğeni topladı
       long_description: |
-        Bu rozet açtığınız konuya yapılan 10 beğeniden dolayı verilmiştir. Forum üyelerinin beğendiği ilginç bir konu başlattınız.
+        Bu rozet açtığınız konuya yapılan 10 beğeniden dolayı verilmiştir. Babunlar üyelerinin beğendiği ilginç bir konu başlattınız.
     good_topic:
       name: Çok İyi Konu
       description: Konu 25 beğeni topladı
       long_description: |
-        Bu rozet açtığınız konuya yapılan 25 beğeniden dolayı verilmiştir. Forum üyeleri tarafından çok beğenilen hararetli bir konu açtınız.
+        Bu rozet açtığınız konuya yapılan 25 beğeniden dolayı verilmiştir. Babunlar üyeleri tarafından çok beğenilen hararetli bir konu açtınız.
     great_topic:
       name: Muhteşem Konu
       description: Konu 50 beğeni topladı
       long_description: |
-        Bu rozet açtığınız konuya yapılan 50 beğeniden dolayı size verilmiştir. Forum üyelerini harekete geçiren muhteşem bir konu başlattınız. Tebrikler!
+        Bu rozet açtığınız konuya yapılan 50 beğeniden dolayı size verilmiştir. Babunlar üyelerini harekete geçiren muhteşem bir konu başlattınız. Tebrikler!
     nice_share:
       name: Hoş Paylaşım
       description: Bir gönderiniz 25 tekil ziyaretci tarafından paylaşıldı
       long_description: |
-        Bu rozeti paylaştığınız bağlantı forum dışından 25 kişi tarafından tıklandığı için kazandınız. Forumumuzun ve paylaşımlarımızın yaygınlaşmasına yardımcı olduğunuz için teşekkür ederiz.
+        Bu rozeti paylaştığınız bağlantı Babunlar dışından 25 kişi tarafından tıklandığı için kazandınız. Babunlar'ın ve paylaşımlarımızın yaygınlaşmasına yardımcı olduğunuz için teşekkür ederiz.
     good_share:
       name: Çok İyi Paylaşım
       description: Bir gönderiniz 300 tekil ziyaretci tarafından paylaşıldı
       long_description: |
-        Bu rozeti paylaştığınız bağlantı forum dışından 300 kişi tarafından tıklandığı için kazandınız.Çok iyi iş başardın! Paylaşımların daha fazla kişiye ulaşmasını ve forumun gelişmesini sağladın.
+        Bu rozeti paylaştığınız bağlantı Babunlar dışından 300 kişi tarafından tıklandığı için kazandınız.Çok iyi iş başardın! Paylaşımların daha fazla kişiye ulaşmasını ve Babunlar'ın gelişmesini sağladın.
     great_share:
       name: 'Muhteşem Paylaşım '
       description: Bir gönderiniz 1000 tekil ziyaretci tarafından paylaşıldı
       long_description: |
-        Bu rozeti paylaştığınız bağlantı forum dışından 1000 kişi tarafından tıklandığı için kazandınız.Süper! Tartışmayı çok büyük kitlelere ulaştırdın ve forumun büyümesine muhteşem bir katkı yaptın.
+        Bu rozeti paylaştığınız bağlantı Babunlar dışından 1000 kişi tarafından tıklandığı için kazandınız. Süper! Tartışmayı çok büyük kitlelere ulaştırdın ve Babunlar'ın büyümesine muhteşem bir katkı yaptın.
     first_like:
       name: İlk Beğeni
       description: Bir gönderiyi beğendin
       long_description: |
-        Bu rozet ilk defa bir mesajı beğendiğin için verildi. Mesajları beğenmek diğer kullanıcıların yaptıkları paylaşımların ilgi çekici olduğunu onlara göstermek açısından oldukça önemlidir. Beğeninizi gösterin!
+        Bu rozet ilk defa bir mesajı beğendiğin için verildi. İletileri beğenmek diğer kullanıcıların yaptıkları paylaşımların ilgi çekici olduğunu onlara göstermek açısından oldukça önemlidir. Beğeninizi gösterin!
     first_flag:
       name: İlk İşaret
       description: Gönderiyi işaretledin
@@ -1624,17 +1615,17 @@ tr_TR:
       name: Destekçi
       description: Kullanıcı davet etme
       long_description: |
-        Bu rozet kullanıcı sayfanızdan ya da konularının altındaki butondan başka birini forumu kullanmaya davet ettiğiniz için verilmiştir. Arkadaşlarınızı ilgilerini çekebilecek konulara davet etmek forumun büyümesi için mükemmel bir yoldur. Teşekkürler!
+        Bu rozet kullanıcı sayfanızdan ya da konularının altındaki butondan başka birini Babunlar'ı kullanmaya davet ettiğiniz için verilmiştir. Arkadaşlarınızı ilgilerini çekebilecek konulara davet etmek Babunlar'ın büyümesi için mükemmel bir yoldur. Teşekkürler!
     campaigner:
       name: Mücadeleci
-      description: 3 Acemi kullanıcı davet edildi
+      description: Büyük destek
       long_description: |
-        Bu rozet davet ettiğiniz 3 kişi sitede vakit geçirerek acemi üye rütbesine ulaştığı için size verilmiştir. Hareketli bir forumun düzenli katkıda bulunan katılımcıları ve destekçileri olmalıdır.
+        Bu rozet davet ettiğiniz 3 kişi sitede vakit geçirdiği için verilmiştir. Hareketli bir Babunlar'ın düzenli katkıda bulunan katılımcıları ve destekçileri olmalıdır.
     champion:
       name: Şampiyon
-      description: 5 sadık üye davet edildi
+      description: İnanılmaz destek
       long_description: |
-        Bu rozet davet ettiğiniz 5 kişi sitede vakit geçirerek sadık üye rütbesine ulaştığı için size verilmiştir. Süper! Yeni üyelerle tanışmamıza sebep olduğunuz için teşekkürler!
+        Bu rozet davet ettiğiniz 5 kişi sitede vakit geçirdiği için verilmiştir. Süper! Yeni insanlarla tanışmamıza sebep olduğunuz için teşekkürler!
     first_share:
       name: İlk Paylaşım
       description: Bir bağlantı paylaşma
@@ -1654,7 +1645,7 @@ tr_TR:
       name: Site Uyumlusu
       description: <a href="/guidelines">site kurallarını</a> okuma
       long_description: |
-        Bu rozeti <a href="/guidelines">site kurallarını </a> okuduğunuz için kazandınız. Site kurallarını bilmek ve bu kurallara uygun davranmak daha huzurlu bir ortam içiersinde paylaşım yapmanızı sağlar.
+        Bu rozeti <a href="/guidelines">site kurallarını </a> okuduğunuz için kazandınız. Site kurallarını bilmek ve bu kurallara uygun davranmak daha huzurlu bir ortam içerisinde paylaşım yapmanızı sağlar.
     reader:
       name: Okuyucu
       description: 100 cevaptan fazla cevabı olan bir konunun her cevabını okuma
@@ -1677,12 +1668,12 @@ tr_TR:
       name: Takdire Layık
       description: 20 gönderine 1 beğeni aldın
       long_description: |
-        Bu rozet 20 farklı mesajda en az bir beğeni kazandığınız için verilmiştir. Forum olarak tartışmalara olan katkınızı takdir ediyoruz!
+        Bu rozet 20 farklı mesajda en az bir beğeni kazandığınız için verilmiştir. Babunlar olarak tartışmalara olan katkınızı takdir ediyoruz!
     respected:
       name: Saygıdeğer
       description: 100 gönderine 2 beğeni aldın
       long_description: |
-        Bu rozet 100 farklı mesajda en az 2 beğeni kazandığınız için verilmiştir.Katkılarınız forum için çok değerli.
+        Bu rozet 100 farklı mesajda en az 2 beğeni kazandığınız için verilmiştir. Katkılarınız Babunlar için çok değerli.
     admired:
       name: Çok Beğenilen
       description: 300 gönderine 5 beğeni aldın
